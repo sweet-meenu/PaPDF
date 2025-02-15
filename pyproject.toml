@@ -1,7 +1,15 @@
 [project]
 name = "papdf"
 version = "0.1.0"
-description = "Add your description here"
+description = "Multi PDF RAG Chatbot"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "faiss-cpu>=1.10.0",
+    "google-generativeai>=0.8.4",
+    "langchain>=0.3.18",
+    "langchain-google-genai>=2.0.9",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.0.1",
+    "streamlit>=1.42.0",
+]
